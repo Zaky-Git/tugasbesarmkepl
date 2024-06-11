@@ -1,4 +1,6 @@
-Continuous Integration : Muhammad Risjad Shidqi \n
-Continuous Testing : Stevent Rangga Pramaditya \n
-Continuous Inspection : Surya Aulia \n
-Continuous Deployment : Muhammad Zaky Fathurahim
+### Tim dan Tugas
+
+- **Continuous Integration**: Muhammad Risjad Shidqi
+- **Continuous Testing**: Stevent Rangga Pramaditya
+- **Continuous Inspection**: Surya Aulia
+- **Continuous Deployment**: Muhammad Zaky Fathurahim
