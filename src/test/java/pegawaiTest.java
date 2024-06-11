@@ -5,7 +5,7 @@ import static org.junit.Assert.assertNotEquals;
 import model.Pegawai;
 import org.junit.Test;
 
-public class pegawaiTest {
+public class PegawaiTest {
 
     @Test
     public void testGetNama() {
