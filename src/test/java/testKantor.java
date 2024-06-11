@@ -1,10 +1,10 @@
 
 import java.util.List;
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertNotEquals;
 import model.Kantor;
 import model.Pegawai;
-import static org.junit.Assert.assertNotEquals;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -68,5 +68,5 @@ public class testKantor {
         assertEquals(1, pegawai.size());
         assertEquals("Kevin", pegawai.get(0).getNama());
     }
-    
+
 }
