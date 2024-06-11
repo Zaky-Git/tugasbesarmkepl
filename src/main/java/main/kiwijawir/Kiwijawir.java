@@ -3,6 +3,7 @@
  */
 
 package main.kiwijawir;
+
 import model.Kantor;
 import model.Pegawai;
 
@@ -13,7 +14,7 @@ import model.Pegawai;
 public class Kiwijawir {
 
     public static void main(String[] args) {
-         Kantor kantor1 = new Kantor("Zaky Corporation");
+        Kantor kantor1 = new Kantor("Zaky Corporation");
 
         kantor1.tambahPegawai(new Pegawai("Angela", 33, 8000000));
         kantor1.tambahPegawai(new Pegawai("Kevin", 38, 5000000));
@@ -32,8 +33,9 @@ public class Kiwijawir {
         System.out.println("Daftar awal Pegawai:");
 
         for (int i = 0; i < kantor1.getDaftarPegawai().size(); i++) {
-            System.out.println((i + 1) + " " + kantor1.getDaftarPegawai().get(i).getNama() 
-                    + " " + kantor1.getDaftarPegawai().get(i).getUmur() + " " + kantor1.getDaftarPegawai().get(i).getGaji());
+            System.out.println((i + 1) + " " + kantor1.getDaftarPegawai().get(i).getNama()
+                    + " " + kantor1.getDaftarPegawai().get(i).getUmur() + " "
+                    + kantor1.getDaftarPegawai().get(i).getGaji());
         }
 
         System.out.println("");
@@ -42,7 +44,8 @@ public class Kiwijawir {
 
         kantor1.hapusPegawai("Angela");
         for (int i = 0; i < kantor1.getDaftarPegawai().size(); i++) {
-            System.out.println((i + 1) + " " + kantor1.getDaftarPegawai().get(i).getNama() + " " + kantor1.getDaftarPegawai().get(i).getUmur() + " " + kantor1.getDaftarPegawai().get(i).getGaji());
+            System.out.println((i + 1) + " " + kantor1.getDaftarPegawai().get(i).getNama() + " "
+                    + kantor1.getDaftarPegawai().get(i).getUmur() + " " + kantor1.getDaftarPegawai().get(i).getGaji());
         }
 
         System.out.println("");
@@ -52,7 +55,8 @@ public class Kiwijawir {
         kantor1.urutkanSesuaiGaji();
 
         for (int i = 0; i < kantor1.getDaftarPegawai().size(); i++) {
-            System.out.println((i + 1) + " " + kantor1.getDaftarPegawai().get(i).getNama() + " " + kantor1.getDaftarPegawai().get(i).getUmur() + " " + kantor1.getDaftarPegawai().get(i).getGaji());
+            System.out.println((i + 1) + " " + kantor1.getDaftarPegawai().get(i).getNama() + " "
+                    + kantor1.getDaftarPegawai().get(i).getUmur() + " " + kantor1.getDaftarPegawai().get(i).getGaji());
         }
 
         System.out.println("");
@@ -62,7 +66,8 @@ public class Kiwijawir {
         kantor1.urutkanSesuaiNama();
 
         for (int i = 0; i < kantor1.getDaftarPegawai().size(); i++) {
-            System.out.println((i + 1) + " " + kantor1.getDaftarPegawai().get(i).getNama() + " " + kantor1.getDaftarPegawai().get(i).getUmur() + " " + kantor1.getDaftarPegawai().get(i).getGaji());
+            System.out.println((i + 1) + " " + kantor1.getDaftarPegawai().get(i).getNama() + " "
+                    + kantor1.getDaftarPegawai().get(i).getUmur() + " " + kantor1.getDaftarPegawai().get(i).getGaji());
         }
 
         System.out.println("");
@@ -70,7 +75,9 @@ public class Kiwijawir {
 
         int umur = 38;
         for (int i = 0; i < kantor1.getSesuaiUmur(umur).size(); i++) {
-            System.out.println((i + 1) + " " + kantor1.getSesuaiUmur(umur).get(i).getNama() + " " + kantor1.getSesuaiUmur(umur).get(i).getUmur() + " " + kantor1.getSesuaiUmur(umur).get(i).getGaji());
+            System.out.println((i + 1) + " " + kantor1.getSesuaiUmur(umur).get(i).getNama() + " "
+                    + kantor1.getSesuaiUmur(umur).get(i).getUmur() + " "
+                    + kantor1.getSesuaiUmur(umur).get(i).getGaji());
         }
     }
 }
