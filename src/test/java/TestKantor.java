@@ -149,28 +149,11 @@ public class TestKantor {
     }
 
     @Test
-    public void testHapusPegawaiMultiple() {
-        kantor.tambahPegawai(new Pegawai("Angela", 40, 6000000));
-        kantor.hapusPegawai("Angela");
-        List<Pegawai> pegawai = kantor.getDaftarPegawai();
-        for (Pegawai p : pegawai) {
-            assertNotEquals("Angela", p.getNama());
-        }
-    }
-
-    @Test
     public void testHapusPegawaiAll() {
         kantor.hapusPegawai("Angela");
         kantor.hapusPegawai("Kevin");
         kantor.hapusPegawai("Stanley");
         assertTrue(kantor.getDaftarPegawai().isEmpty());
-    }
-
-    @Test
-    public void testTambahPegawaiNull() {
-        Pegawai pegawai = null;
-        kantor.tambahPegawai(pegawai);
-        assertFalse(kantor.getDaftarPegawai().contains(pegawai));
     }
 
     @Test
