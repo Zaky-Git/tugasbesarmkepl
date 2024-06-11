@@ -1,4 +1,3 @@
-
 import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -8,16 +7,13 @@ import model.Pegawai;
 import org.junit.Before;
 import org.junit.Test;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 /**
  *
  * @author mzaky
  */
-public class testKantor {
+
+public class kantorTest {
+
     private Kantor kantor;
 
     @Before
