@@ -7,12 +7,12 @@ import model.Pegawai;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- *
- * @author mzaky
- */
+public class TestKantor {
 
-public class KantorTest {
+    /**
+     *
+     * @author mzaky
+     */
 
     private Kantor kantor;
 

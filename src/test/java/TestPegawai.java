@@ -5,7 +5,7 @@ import static org.junit.Assert.assertNotEquals;
 import model.Pegawai;
 import org.junit.Test;
 
-public class PegawaiTest {
+public class TestPegawai {
 
     @Test
     public void testGetNama() {
@@ -177,4 +177,5 @@ public class PegawaiTest {
         Pegawai pegawai2 = new Pegawai("Jane Doe", 25, 500000000);
         assertTrue(pegawai1.compareTo(pegawai2) < 0);
     }
+
 }
