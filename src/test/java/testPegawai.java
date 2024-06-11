@@ -1,6 +1,6 @@
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 import model.Pegawai;
 import org.junit.Test;
 
@@ -38,5 +38,5 @@ public class testPegawai {
         Pegawai pegawai2 = new Pegawai("Jane Doe", 25, 6000000);
         assertTrue(pegawai1.compareTo(pegawai2) < 0);
     }
-    
+
 }
