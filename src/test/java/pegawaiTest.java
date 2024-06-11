@@ -13,7 +13,7 @@ import org.junit.Test;
  *
  * @author mzaky
  */
-public class testPegawai {
+public class pegawaiTest {
     @Test
     public void testGetNama() {
         Pegawai pegawai = new Pegawai("John Doe", 30, 5000000);
