@@ -29,3 +29,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Build and analyze
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+      run: mvn -B verify sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=suryaaaulia -Dsonar.projectKey=SuryaaAulia_tugasbesarmkepl
