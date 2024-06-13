@@ -39,6 +39,7 @@ public class Kantor {
             if (daftarPegawai.get(i).getNama().equals(namaPeg)) {
                 daftarPegawai.remove(i);
                 break;
+                
             }
         }
     }
