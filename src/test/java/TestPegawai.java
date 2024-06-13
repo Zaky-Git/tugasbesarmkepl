@@ -15,8 +15,8 @@ public class TestPegawai {
 
     @Test
     public void testGetUmur() {
-        Pegawai pegawai = new Pegawai("John Doe", 30, 5000000);
-        assertEquals(30, pegawai.getUmur());
+        Pegawai pegawai = new Pegawai("John Doe", 31, 5000000);
+        assertEquals(31, pegawai.getUmur());
     }
 
     @Test
