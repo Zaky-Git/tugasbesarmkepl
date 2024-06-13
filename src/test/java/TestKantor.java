@@ -11,7 +11,7 @@ import org.junit.Test;
 public class TestKantor {
 
     /**
-     *
+     * 
      * @author mzaky
      */
 
